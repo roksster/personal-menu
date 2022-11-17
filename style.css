@@ -1,0 +1,28 @@
+html {
+	font: 40px/1 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: rgba(233, 122, 191, 0.164);
+
+}
+
+p {
+    line-height: 100px;
+}
+
+.centrinho {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+img{
+    position: relative;
+	width: 15%;
+	height: auto;
+	border-radius: 100%;
+}
+
+img:hover {-webkit-transform:scale(1.3);transform:scale(1.3);
+    transition: 0.5s;
+	z-index: 1;
+}
